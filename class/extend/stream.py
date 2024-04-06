@@ -1,6 +1,9 @@
 from abc import ABC, abstractmethod
+
+
 class InvalidOperationError(Exception):
     pass
+
 
 class Stream(ABC):
     def __init__(self):
@@ -31,6 +34,5 @@ class NetworkStream(Stream):
         print('Read data from network.')
 
 
-class MemoryStream(Stream): # without implement read method, still a abstract class
+class MemoryStream(Stream):  # without implement read method, still a abstract class
     pass
-

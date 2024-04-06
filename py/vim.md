@@ -1,3 +1,4 @@
+```vim
 :!python hello.py
 
 :!python %  // % current file
@@ -9,3 +10,4 @@
 :%!xxd      // convert file to byte(hex) state
 
 :%!xxd -r   // back text format
+```
