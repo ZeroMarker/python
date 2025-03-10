@@ -1,4 +1,6 @@
-```vim
+# vimvim
+
+```sh
 :!python hello.py
 
 :!python %  // % current file
